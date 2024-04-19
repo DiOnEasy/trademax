@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Mulish-Light';
+    src: url('../fonts/Mulish-Light.ttf');
+}
+@font-face {
+    font-family: 'Mulish-Regular';
+    src: url('../fonts/Mulish-Regular.ttf');
+}
+@font-face {
+    font-family: 'Mulish-Bold';
+    src: url('../fonts/Mulish-Bold.ttf');
+}
+@font-face {
+    font-family: 'Mulish-SemiBold';
+    src: url('../fonts/Mulish-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'Mulish-ExtraBold';
+    src: url('../fonts/Mulish-ExtraBold.ttf');
+}
+@font-face {
+    font-family: 'Mulish-Black';
+    src: url('../fonts/Mulish-Black.ttf');
+}
+@font-face {
+    font-family: 'NunitoSans';
+    src: url('../fonts/NunitoSans.ttf');
+}
+@font-face {
+    font-family: 'NunitoSans-Light';
+    src: url('../fonts/NunitoSans-Light_1.ttf');
+}
+@font-face {
+    font-family: 'NunitoSans-Bold';
+    src: url('../fonts/NunitoSans-Bold.ttf');
+}
+*  {
+    font-weight: 100;
+    size: 16px;
+    font-family: "NunitoSans-Light";
+}
+a {
+    text-decoration: none;
+}
+.semi-bold {
+    font-weight: 200;
+    font-family: 'Mulish-SemiBold';
+}
+.bold {
+    font-weight: 700;
+    font-family: 'NunitoSans-Bold';
+}
+.mulish-bold {
+    font-weight: 700;
+    font-family: 'Mulish-Bold';
+
+}
+.primary-text {
+    color: #464646;
+}
+.white-text {
+    color: #ffff;
+}
+.dark-text {
+    color: #000850;
+}
+.dark-blue-text {
+    color: rgba(0, 8, 80, 1);
+}
+.blue-text {
+    color: #176af3;
+}
+.red-text {
+    color: #ED1C24;
+}
+.green-text {
+    color: #39B54A;
+}
+.centered-text {
+    margin: 0 auto;
+    text-align: center;
+}
+.tiny-text {
+    font-size: 12px;
+}
+.small-text {
+    font-size: 14px;
+}
+.medium-text {
+    font-size: 20px;
+}
+.large-text {
+    font-size: 48px;
+}
+.jumbo-text {
+    font-size: 56px;
+}
+.visible-sm {
+    display: none;
+}
+.visible-md {
+    display: none;
+}
+.hide {
+    visibility: none;
+}
+.show {
+    visibility: visible;
+}
+
+@media only screen and (max-width: 1024px) {
+    .jumbo-text {
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .jumbo-text {
+        font-size: 48px;
+    }
+    .large-text {
+        font-size: 32px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .jumbo-text {
+        font-size: 32px;
+    }
+    .visible-sm {
+        display: block
+    }
+    .left-text-mobile {
+        text-align: left;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .visible-md {
+        display: block
+    }
+}
+

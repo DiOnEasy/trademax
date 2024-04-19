@@ -1,0 +1,103 @@
+button {
+    font-family: 'NunitoSans-Bold';
+}
+.button {
+    padding: 16px 32px;
+    font-size: 15px;
+    width: 100%;
+    border: none;
+    outline: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+.button.none {
+    all: unset;
+    cursor: pointer;
+}
+.button > a {
+    text-decoration: none;
+}
+.button.secondary {
+    border-radius: 10px;
+    width: 70%;
+}
+.secondary-button-wrapper {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.blue-button {
+    background-color: #1861D7;
+    color: white;
+}
+.white-button {
+    background-color: #ffff;
+    color: #080F57;
+    border: none;
+}
+
+.white-button:hover {
+    background-color:  #40dcfd;
+    color: #ffff;
+}
+
+.dark-button {
+    background-color: #030A50;
+    color: #ffff;
+}
+.dark-button:hover {
+    background-color: #ffff;
+    color: #030A50;
+    border: 1px solid #030A50;
+}
+
+.primary-button {
+    background: transparent linear-gradient(90deg, #1B79DE 0%, #67B0FF 100%) 0% 0% no-repeat padding-box;
+    color: #ffff;
+    border: none;
+}
+
+.primary-button a {
+    color: #ffff;
+}
+
+.primary-button:hover {
+    background-image: linear-gradient(90deg,#176af3,rgba(43,182,246,.8));
+}
+
+.primary-button-disabled {
+    background: #888;
+    color: #ffff;
+    border: none;
+    cursor: not-allowed !important;
+}
+
+.black-button {
+    background-color: #000000;
+    color: #ffff;
+}
+.black-button a {
+    color: #ffff;
+}
+.black-button:hover {
+    background-color: #ffff;
+    color: #000000;
+}
+.black-button:hover a {
+    color: #000000;
+}
+
+@media only screen and (max-width: 1024px) {
+    .button {
+        padding: 16px 32px;
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .button {
+        padding: 16px;
+        font-size: 14px;
+    }
+}
